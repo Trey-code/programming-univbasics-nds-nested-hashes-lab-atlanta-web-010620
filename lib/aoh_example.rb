@@ -28,10 +28,11 @@ end
 end
 
 def aoh_lookup(aoh, row, key)
-  
+   expect(aoh_lookup(assembled_aoh, 2, :name)).to eq("Pat Monteseian")
+    end 
+  end 
 end
 
 def aoh_update(aoh, row, key, new_value)
-  # Update the AoH data at row and key to have the value of new_value
-  # Return the updated AoH
+  
 end
